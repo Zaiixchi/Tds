@@ -1,0 +1,155 @@
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/auto-strat/refs/heads/main/Library.lua"))()
+TDS:Addons()
+
+TDS:Loadout("Scout", "Hacker", "Gatling Gun", "Mercenary Base", "DJ Booth")
+TDS:Mode("Trial")
+TDS:Ready()
+TDS:VoteSkip(1,39)
+
+TDS:Place("Scout", 8.947320938110352, 3.59997820854187, 20.03247833251953, true)
+
+-- [ Wave 1 ] --
+TDS:Place("Scout", 8.539993286132812, 3.59997820854187, 19.841753005981445, true)
+TDS:Place("Scout", 8.410665512084961, 3.59997820854187, 19.807832717895508, true)
+TDS:Place("Scout", 8.633238792419434, 3.59997820854187, 19.93375015258789, true)
+
+-- [ Wave 2 ] --
+TDS:Place("Scout", 8.631087303161621, 3.59997820854187, 19.935222625732422, true)
+TDS:Place("Scout", 8.576066017150879, 3.59997820854187, 20.112869262695312, true)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(1)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(6)
+
+-- [ Wave 5 ] --
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+
+-- [ Wave 6 ] --
+TDS:Upgrade(5)
+TDS:Upgrade(6)
+
+-- [ Wave 9 ] --
+TDS:Place("Gatling Gun", 8.034866333007812, 0.9999420642852783, 29.28705596923828)
+
+-- [ Wave 10 ] --
+TDS:Place("DJ Booth", 6.573297500610352, 0.9999464750289917, 22.924680709838867)
+TDS:Place("Hacker", 1.7715799808502197, 0.9999390840530396, 33.55778503417969)
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 11 ] --
+TDS:SetTarget(9, "Last")
+TDS:SetTarget(9, "Strongest")
+TDS:Place("Hacker", 16.505712509155273, 0.9999499917030334, 17.91228485107422)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+TDS:Upgrade(8)
+TDS:SetOption(8, "Track", "Green")
+TDS:Upgrade(8)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 13 ] --
+TDS:Place("Scout", 8.123374938964844, 3.59997820854187, 20.197668075561523, true)
+TDS:Place("Scout", 8.042632102966309, 3.59997820854187, 20.198394775390625, true)
+TDS:Place("Scout", 8.043384552001953, 3.59997820854187, 20.19842529296875, true)
+TDS:Place("Scout", 8.04468822479248, 3.59997820854187, 20.198505401611328, true)
+TDS:Place("Scout", 8.0408296585083, 3.59997820854187, 20.198246002197266, true)
+TDS:Upgrade(7)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 18 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(8)
+
+-- [ Wave 21 ] --
+TDS:Place("Mercenary Base", 11.90256118774414, 0.9999479651451111, 20.810794830322266)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:SetOption(16, "Unit 1", "Riot Guard")
+TDS:SetOption(16, "Unit 2", "Riot Guard")
+TDS:SetOption(16, "Unit 3", "Riot Guard")
+
+-- [ Wave 22 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(9)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(9, 2)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(16)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(7)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(7)
+TDS:Place("Mercenary Base", 16.841249465942383, 0.9999470710754395, 22.137561798095703)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Unit 1", "Riot Guard")
+TDS:SetOption(17, "Unit 2", "Riot Guard")
+TDS:SetOption(17, "Unit 3", "Riot Guard")
+
+-- [ Wave 32 ] --
+TDS:Place("Mercenary Base", 20.393722534179688, 0.99994957447052, 18.481290817260742)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+TDS:SetOption(18, "Unit 1", "Riot Guard")
+TDS:SetOption(18, "Unit 2", "Riot Guard")
+TDS:Upgrade(18)
+TDS:SetOption(18, "Unit 3", "Riot Guard")
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 33 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(10)
+TDS:Upgrade(10)
+
+-- [ Wave 34 ] --
+TDS:Upgrade(10, 2)
+TDS:SetOption(8, "Track", "Red")
+
+-- [ Wave 35 ] --
+TDS:Ability(9, "Hologram Tower")
+
+-- [ Wave 37 ] --
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(12.52762222290039, 3.5999951362609863, 28.891305923461914), towerToClone = 7}, true)
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(18.854400634765625, 0.9999527931213379, 13.933516502380371), towerToClone = 18}, true)
+
+-- [ Wave 38 ] --
+TDS:Ability(9, "Hologram Tower", {towerPosition = Vector3.new(14.1212739944458, 0.9999536275863647, 12.689754486083984), towerToClone = 18}, true)
+
+-- [ Wave 39 ] --
+TDS:Ability(10, "Hologram Tower", {towerPosition = Vector3.new(8.681644439697266, 0.999954342842102, 11.629838943481445), towerToClone = 18}, true)
