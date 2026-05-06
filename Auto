@@ -19,12 +19,12 @@ local modes = {
 
 -- TRIALS
 local enabledTrials = {
-    Glass = true,
-    SpeedyEnemies = true,
+    Glass = false,
+    SpeedyEnemies = false,
     ExplodingEnemies = true,
-    Limitation = true,
-    Fog = true,
-    JailedTowers = true,
+    Limitation = false,
+    Fog = false,
+    JailedTowers = false,
     HiddenEnemies = false,
     Committed = false,
     HealthyEnemies = false,
