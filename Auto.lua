@@ -9,12 +9,12 @@ local obj = game:GetService("ReplicatedStorage")
 local scriptholder = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/frost"
 
 -- FROST MODE
-local mainEnabled = true
+local mainEnabled = false
 local mainScript = scriptholder
 
 -- MISSION/QUEST MODE
 local modes = {
-    { enabled = false, script = scriptholder }
+    { enabled = true, script = "https://pastebin.com/raw/PhXHfmW5" }
 }
 
 -- TRIALS
