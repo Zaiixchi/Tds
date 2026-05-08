@@ -4,7 +4,7 @@ TDS:Addons()
 TDS:Loadout("DJ Booth", "Gatling Gun", "Hacker", "Scout", "Engineer")
 TDS:Mode("Frost")
 TDS:GameInfo("Simplicity", {Quarantine = true, Glass = true, ExplodingEnemies = true, HiddenEnemies = true, Committed = true})
-local prol = { Glass = false, Committed = true, ExplodingEnemies = true, HiddenEnemies = true, Quarantine = true, Limitation = true }
+local prol = { Glass = false, Committed = true, ExplodingEnemies = true, HiddenEnemies = true, Quarantine = true, Fog = true, Limitation = true }
 game:GetService("ReplicatedStorage").Network.Modifiers["RF:BulkVoteModifiers"]:InvokeServer(prol)
 TDS:Ready()
 TDS:VoteSkip(1,39)
