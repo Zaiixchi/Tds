@@ -31,7 +31,7 @@ local enabledTrials = {
     FlyingEnemies = false,
     Broke = false,
     Inflation = false,
-    Quarantine = true,
+    Quarantine = false,
 }
 
 local scripts = {
