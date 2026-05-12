@@ -47,7 +47,7 @@ local scripts = {
     FlyingEnemies = scriptholder,
     Broke = scriptholder,
     Inflation = scriptholder,
-    Quarantine = "https://pastebin.com/3CJx32ND",
+    Quarantine = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Quarantine",
 }
 
 local function runScript(url)
