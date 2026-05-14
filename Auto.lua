@@ -1,7 +1,7 @@
 if not game:IsLoaded() then
     game.Loaded:Wait()
 end
-
+wait(5)
 local obj = game:GetService("ReplicatedStorage")
     :WaitForChild("StateReplicators")
     :WaitForChild("GameStateReplicator")
