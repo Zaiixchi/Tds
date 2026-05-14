@@ -6,7 +6,7 @@ local obj = game:GetService("ReplicatedStorage")
     :WaitForChild("StateReplicators")
     :WaitForChild("GameStateReplicator")
 
-local scriptholder = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/frost"
+local scriptholder = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Frost"
 
 -- MAIN
 local mainEnabled = true
@@ -39,7 +39,7 @@ local scripts = {
     SpeedyEnemies = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Speedy",
     ExplodingEnemies = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Exploding",
     Limitation = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Limitation",
-    Fog = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/fog",
+    Fog = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Fog",
     JailedTowers = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Jailed",
     HiddenEnemies = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Hidden",
     Committed = scriptholder,
