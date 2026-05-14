@@ -2,6 +2,8 @@ local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/DuxiiT/au
 
 TDS:Loadout("Cowboy", "DJ Booth", "Hacker", "Gatling Gun", "Mercenary Base")
 TDS:Mode("Trial")
+TDS:Ready()
+TDS:VoteSkip(1,39)
 
 TDS:Place("Cowboy", -2.2078328132629395, 0.17981034517288208, 3.6149673461914062)
 
