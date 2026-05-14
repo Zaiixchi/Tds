@@ -8,11 +8,11 @@ local obj = game:GetService("ReplicatedStorage")
 
 local scriptholder = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/frost"
 
--- FROST MODE
+-- MAIN
 local mainEnabled = true
 local mainScript = scriptholder
 
--- MISSION/QUEST MODE
+-- MISSIONS
 local modes = {
     { enabled = false, script = "https://pastebin.com/raw/PhXHfmW5" }
 }
@@ -51,26 +51,38 @@ local scripts = {
 }
 
 local function runScript(url)
+    print("Running:", url)
     loadstring(game:HttpGet(url))()
 end
 
 local function handleTrial(value)
 
-  
-    if enabledTrials[value] and scripts[value] then
-        runScript(scripts[value])
-        return
+    print("Current Trial:", value)
+
+    -- TRIAL PRIORITY
+    if value and enabledTrials[value] == true then
+        local scriptUrl = scripts[value]
+
+        print("Enabled Trial Found:", value)
+        print("Script:", scriptUrl)
+
+        if scriptUrl then
+            runScript(scriptUrl)
+            return
+        end
     end
 
- 
+    -- MAIN
     if mainEnabled then
+        print("Running Main Script")
         runScript(mainScript)
         return
     end
 
-   
+    -- MISSIONS
     for _, mode in ipairs(modes) do
         if mode.enabled then
+            print("Running Mission Script")
             runScript(mode.script)
             return
         end
@@ -78,9 +90,7 @@ local function handleTrial(value)
 end
 
 local current = obj:GetAttribute("GlobalTrial")
-if current then
-    handleTrial(current)
-end
+handleTrial(current)
 
 obj:GetAttributeChangedSignal("GlobalTrial"):Connect(function()
     handleTrial(obj:GetAttribute("GlobalTrial"))
