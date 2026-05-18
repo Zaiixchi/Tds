@@ -20,7 +20,7 @@ local modes = {
 -- TRIALS
 local enabledTrials = {
     Glass = false,
-    SpeedyEnemies = false,
+    SpeedyEnemies = true,
     ExplodingEnemies = true,
     Limitation = false,
     Fog = false,
