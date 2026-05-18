@@ -29,7 +29,7 @@ local enabledTrials = {
     Committed = false,
     HealthyEnemies = false,
     FlyingEnemies = false,
-    Broke = true,
+    Broke = false,
     Inflation = false,
     Quarantine = false,
 }
