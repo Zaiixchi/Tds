@@ -29,7 +29,7 @@ local enabledTrials = {
     Committed = false,
     HealthyEnemies = false,
     FlyingEnemies = false,
-    Broke = false,
+    Broke = true,
     Inflation = false,
     Quarantine = false,
 }
@@ -45,7 +45,7 @@ local scripts = {
     Committed = scriptholder,
     HealthyEnemies = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Healthy",
     FlyingEnemies = scriptholder,
-    Broke = scriptholder,
+    Broke = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Broke",
     Inflation = scriptholder,
     Quarantine = "https://raw.githubusercontent.com/Zaiixchi/Tds/refs/heads/main/Quarantine"
 }
